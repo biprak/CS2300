@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	background-color: #19647E;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 150px;
+	margin-top: 0;
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+	padding-left: 70px;
+	margin-top: 7px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 100px;
+	padding-left: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	float: right;
+	height: 150px;
+}
+
+.navbar-tabs li {
+	float: left;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.navbar-tabs li a {
+	height: 150px;
+	padding-top: 60px;
+	padding-left: 25px;
+	padding-right: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-tabs li a{
+	color: 	#EE964B;
+}
+
+.navbar-tabs li a:visited{
+	color: #F4D35E;
+}
+
+.form {
+	background-color: #28AFB0;
+	display: block;
+	width: 40%;
+	padding: 20px;
+	margin: auto;
+	text-align: justify;
+	border: 4px solid #000000;
+}
+
+label {
+	display: inline-block;
+	float: left;
+	width: 275px;
+}
+
+input[type=submit] {
+	font-family: serif;
+	font-weight: black;
+	font-size: 1.0em;
+	width: 40%;
+	margin-top: 20px;
+	padding: 5px 15px;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #3C4858;
+}
+
+.button {
+	text-align: center;
+}
+
+.title {
+	font-size: 2em;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
